@@ -11,13 +11,15 @@ The following features are implemented in the project:
 
 Here's a mockup and design of the project:
 
-<img src=' ' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+Lorem Ipsum
+
+`<img src=' ' title='Video Walkthrough' width='' alt='Video Walkthrough' />`
 
 ## Video Walkthrough:
 
 Here's a walkthrough of implemented features:
 
-<img src=' ' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+`<img src=' ' title='Video Walkthrough' width='' alt='Video Walkthrough' />`
 
 ## Notes and Comments
 
