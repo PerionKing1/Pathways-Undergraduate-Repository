@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Opportunities</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+    .header {
+      background-color: #ff6600;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+    .logo {
+      height: 70px;
+    }
+    .title-bar {
+      background-color: #0033ff;
+      color: white;
+      padding: 10px;
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .nav {
+      background-color: #ff6600;
+      display: flex;
+      justify-content: center;
+      padding: 5px 0;
+    }
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    .opportunity-container {
+      margin: 30px auto;
+      max-width: 700px;
+    }
+    .opportunity {
+      background-color: #dcdcdc;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+    .opportunity-title {
+      color: #6666cc;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .opportunity-text {
+      color: black;
+      font-weight: normal;
+    }
+    .read-more {
+      color: #3366cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Virginia_State_University_seal.svg/1200px-Virginia_State_University_seal.svg.png" class="logo" alt="VSU Logo">
+  </div>
+
+  <div class="title-bar">
+    Trojan Undergraduate Research Database
+  </div>
+
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Search</a>
+    <a href="#">Log Out</a>
+  </div>
+
+  <div class="opportunity-container">
+    <div class="opportunity">
+      <div class="opportunity-title">STEM scholars Research Opportunity</div>
+      <div class="opportunity-text">
+        The STEM Scholars Research Opportunity is a eight week programme that encourages student scholars to gain an understanding of the depth of their STEM feild of interest…
+        <a href="#" class="read-more">read more.</a>
+      </div>
+    </div>
+    <div class="opportunity">
+      <div class="opportunity-title">STEM scholars Research Opportunity</div>
+      <div class="opportunity-text">
+        The STEM Scholars Research Opportunity is a eight week programme that encourages student scholars to gain an understanding of the depth of their STEM feild of interest…
+        <a href="#" class="read-more">read more.</a>
+      </div>
+    </div>
+    <div class="opportunity">
+      <div class="opportunity-title">STEM scholars Research Opportunity</div>
+      <div class="opportunity-text">
+        The STEM Scholars Research Opportunity is a eight week programme that encourages student scholars to gain an understanding of the depth of their STEM feild of interest…
+        <a href="#" class="read-more">read more.</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
