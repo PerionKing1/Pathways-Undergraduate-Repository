@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trojan Undergraduate Research Database</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+    .header {
+      background-color: #ff6600;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+    .logo {
+      height: 70px;
+    }
+    .title-bar {
+      background-color: #0033ff;
+      color: white;
+      padding: 10px;
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .nav {
+      background-color: #ff6600;
+      display: flex;
+      justify-content: center;
+      padding: 5px 0;
+    }
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    .form-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 40px;
+      gap: 20px;
+    }
+    .input-box {
+      width: 220px;
+      height: 50px;
+      background-color: #dcdcdc;
+      padding: 10px;
+      box-sizing: border-box;
+      font-weight: bold;
+    }
+    .input-field, select {
+      width: 100%;
+      height: 100%;
+      border: none;
+      background-color: transparent;
+      font-size: 14px;
+    }
+    .search-btn {
+      background-color: blue;
+      color: white;
+      font-weight: bold;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      align-self: flex-end;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Virginia_State_University_seal.svg/1200px-Virginia_State_University_seal.svg.png" class="logo" alt="VSU Logo">
+  </div>
+
+  <div class="title-bar">
+    Trojan Undergraduate Research Database
+  </div>
+
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Search</a>
+    <a href="#">Log Out</a>
+  </div>
+
+  <div class="form-container">
+    <div class="input-box">
+      <input class="input-field" type="text" placeholder="Description">
+    </div>
+    <div class="input-box">
+      <input class="input-field" type="text" placeholder="Instructor">
+    </div>
+    <div class="input-box">
+      <input class="input-field" type="text" placeholder="Area of Research">
+    </div>
+    <div class="input-box">
+      <select class="input-field">
+        <option value="" disabled selected>Research Period</option>
+        <option value="spring">Spring</option>
+        <option value="summer">Summer</option>
+        <option value="fall">Fall</option>
+      </select>
+    </div>
+    <button class="search-btn">Search</button>
+  </div>
+</body>
+</html>

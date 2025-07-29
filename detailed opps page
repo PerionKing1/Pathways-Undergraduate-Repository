@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Opportunity Details</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+    .header {
+      background-color: #ff6600;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+    .logo {
+      height: 70px;
+    }
+    .title-bar {
+      background-color: #0033ff;
+      color: white;
+      padding: 10px;
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .nav {
+      background-color: #ff6600;
+      display: flex;
+      justify-content: center;
+      padding: 5px 0;
+    }
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    .content {
+      padding: 30px 40px;
+    }
+    .section {
+      margin-bottom: 25px;
+    }
+    .description-box {
+      background-color: #f0f0f0;
+      padding: 15px;
+      max-width: 800px;
+    }
+    .apply-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #0033ff;
+      color: white;
+      border: none;
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Virginia_State_University_seal.svg/1200px-Virginia_State_University_seal.svg.png" class="logo" alt="VSU Logo">
+  </div>
+
+  <div class="title-bar">
+    Trojan Undergraduate Research Database
+  </div>
+
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Search</a>
+    <a href="#">Log Out</a>
+  </div>
+
+  <div class="content">
+    <div class="section">
+      <strong>Researcher Name</strong>
+    </div>
+
+    <div class="section">
+      <strong>Student Researcher Requirements:</strong><br>
+      Major<br>
+      Preferred Academic Level<br>
+      Prerequisites
+    </div>
+
+    <div class="section">
+      <strong>Research Timeline</strong>
+    </div>
+
+    <div class="description-box">
+      <strong>Description:</strong><br>
+      The STEM Scholars Research Programme is an eight week programme that allows STEM scholars to gain a deeper understanding of their STEM field of interest. This is an extensive summer programme open to all scholars in the Natural and Life Sciences college at Virginia State University.<br><br>
+      The students selected will receive a stipend of $6000 and a housing and meal plan.<br>
+      In addition, selected students will receive a certification in
+    </div>
+
+    <button class="apply-button">Apply</button>
+  </div>
+</body>
+</html>
